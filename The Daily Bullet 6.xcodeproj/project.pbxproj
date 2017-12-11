@@ -12,6 +12,17 @@
 		2A276B691FDD2BAB005B714B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A276B671FDD2BAB005B714B /* Main.storyboard */; };
 		2A276B6B1FDD2BAB005B714B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A276B6A1FDD2BAB005B714B /* Assets.xcassets */; };
 		2A276B6E1FDD2BAB005B714B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A276B6C1FDD2BAB005B714B /* LaunchScreen.storyboard */; };
+		2A276B761FDD2DF1005B714B /* IndexEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A276B751FDD2DF1005B714B /* IndexEditViewController.swift */; };
+		2A276B781FDD4BE3005B714B /* CoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A276B771FDD4BE3005B714B /* CoverViewController.swift */; };
+		2A276B7B1FDD4F1D005B714B /* Cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A276B7A1FDD4F1D005B714B /* Cover.jpg */; };
+		2A276B7F1FDD5EE3005B714B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A276B7E1FDD5EE3005B714B /* HomeViewController.swift */; };
+		2A276B831FDD6506005B714B /* HomePic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2A276B821FDD6506005B714B /* HomePic.jpg */; };
+		2A276B851FDD65AA005B714B /* MenuBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A276B841FDD65AA005B714B /* MenuBarViewController.swift */; };
+		2A276B871FDD7552005B714B /* SideMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A276B861FDD7552005B714B /* SideMenuTableViewController.swift */; };
+		2AD553211FDE0FDC00A8CC7C /* DailyLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD553201FDE0FDC00A8CC7C /* DailyLogViewController.swift */; };
+		2AD553231FDE112B00A8CC7C /* EditDailyLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD553221FDE112B00A8CC7C /* EditDailyLogViewController.swift */; };
+		2AD553251FDE27DA00A8CC7C /* FutureLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD553241FDE27DA00A8CC7C /* FutureLogViewController.swift */; };
+		2AD553271FDE27F600A8CC7C /* EditFutureLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD553261FDE27F600A8CC7C /* EditFutureLogViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +33,17 @@
 		2A276B6A1FDD2BAB005B714B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A276B6D1FDD2BAB005B714B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A276B6F1FDD2BAB005B714B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A276B751FDD2DF1005B714B /* IndexEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexEditViewController.swift; sourceTree = "<group>"; };
+		2A276B771FDD4BE3005B714B /* CoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverViewController.swift; sourceTree = "<group>"; };
+		2A276B7A1FDD4F1D005B714B /* Cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cover.jpg; sourceTree = "<group>"; };
+		2A276B7E1FDD5EE3005B714B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2A276B821FDD6506005B714B /* HomePic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HomePic.jpg; sourceTree = "<group>"; };
+		2A276B841FDD65AA005B714B /* MenuBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarViewController.swift; sourceTree = "<group>"; };
+		2A276B861FDD7552005B714B /* SideMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewController.swift; sourceTree = "<group>"; };
+		2AD553201FDE0FDC00A8CC7C /* DailyLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLogViewController.swift; sourceTree = "<group>"; };
+		2AD553221FDE112B00A8CC7C /* EditDailyLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDailyLogViewController.swift; sourceTree = "<group>"; };
+		2AD553241FDE27DA00A8CC7C /* FutureLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutureLogViewController.swift; sourceTree = "<group>"; };
+		2AD553261FDE27F600A8CC7C /* EditFutureLogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFutureLogViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +76,33 @@
 		2A276B621FDD2BAB005B714B /* The Daily Bullet 6 */ = {
 			isa = PBXGroup;
 			children = (
-				2A276B631FDD2BAB005B714B /* AppDelegate.swift */,
+				2A276B791FDD4EEA005B714B /* Photos */,
+				2A276B771FDD4BE3005B714B /* CoverViewController.swift */,
+				2A276B7E1FDD5EE3005B714B /* HomeViewController.swift */,
+				2A276B841FDD65AA005B714B /* MenuBarViewController.swift */,
+				2A276B861FDD7552005B714B /* SideMenuTableViewController.swift */,
 				2A276B651FDD2BAB005B714B /* ViewController.swift */,
+				2A276B751FDD2DF1005B714B /* IndexEditViewController.swift */,
+				2AD553241FDE27DA00A8CC7C /* FutureLogViewController.swift */,
+				2AD553261FDE27F600A8CC7C /* EditFutureLogViewController.swift */,
+				2AD553201FDE0FDC00A8CC7C /* DailyLogViewController.swift */,
+				2AD553221FDE112B00A8CC7C /* EditDailyLogViewController.swift */,
+				2A276B631FDD2BAB005B714B /* AppDelegate.swift */,
 				2A276B671FDD2BAB005B714B /* Main.storyboard */,
-				2A276B6A1FDD2BAB005B714B /* Assets.xcassets */,
 				2A276B6C1FDD2BAB005B714B /* LaunchScreen.storyboard */,
+				2A276B6A1FDD2BAB005B714B /* Assets.xcassets */,
 				2A276B6F1FDD2BAB005B714B /* Info.plist */,
 			);
 			path = "The Daily Bullet 6";
+			sourceTree = "<group>";
+		};
+		2A276B791FDD4EEA005B714B /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				2A276B821FDD6506005B714B /* HomePic.jpg */,
+				2A276B7A1FDD4F1D005B714B /* Cover.jpg */,
+			);
+			path = Photos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +166,9 @@
 			files = (
 				2A276B6E1FDD2BAB005B714B /* LaunchScreen.storyboard in Resources */,
 				2A276B6B1FDD2BAB005B714B /* Assets.xcassets in Resources */,
+				2A276B831FDD6506005B714B /* HomePic.jpg in Resources */,
 				2A276B691FDD2BAB005B714B /* Main.storyboard in Resources */,
+				2A276B7B1FDD4F1D005B714B /* Cover.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +179,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A276B761FDD2DF1005B714B /* IndexEditViewController.swift in Sources */,
 				2A276B661FDD2BAB005B714B /* ViewController.swift in Sources */,
+				2A276B781FDD4BE3005B714B /* CoverViewController.swift in Sources */,
+				2AD553271FDE27F600A8CC7C /* EditFutureLogViewController.swift in Sources */,
+				2AD553211FDE0FDC00A8CC7C /* DailyLogViewController.swift in Sources */,
 				2A276B641FDD2BAB005B714B /* AppDelegate.swift in Sources */,
+				2A276B7F1FDD5EE3005B714B /* HomeViewController.swift in Sources */,
+				2AD553231FDE112B00A8CC7C /* EditDailyLogViewController.swift in Sources */,
+				2A276B851FDD65AA005B714B /* MenuBarViewController.swift in Sources */,
+				2AD553251FDE27DA00A8CC7C /* FutureLogViewController.swift in Sources */,
+				2A276B871FDD7552005B714B /* SideMenuTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
